@@ -6,6 +6,9 @@
     font-size:15px;
     color: black;
 }
+#friend {
+    background-color: aqua;
+}
 
 .name:hover{
     border: solid 2px rgb(73, 14, 101);
@@ -44,6 +47,7 @@ table,td,th{
     margin: 1px solid black;
     padding: 2px;
     border: 3px solid rgb(114, 113, 113);
+    border-collapse: seperate;
     text-align: center;  
 }
 td{
@@ -52,9 +56,28 @@ td{
 th{
     color:brown;
 }
+
+
+th:nth-child(odd){
+    background-color: rgb(244, 22, 22);
+}
+th:nth-child(even){
+    background-color: rgb(236, 12, 31);
+}
 tr:nth-child(even){
     background-color: rgb(250, 227, 200);
 }
+tr:nth-child(odd){
+    background-color: rgb(103, 5, 110);
+}
+
+tr:nth-child(even){
+    background-color: rgb(103, 5, 110);
+}
+tr:hover {background-color: coral;}
+td:hover {background-color: rgb(80, 255, 95);}
+th:hover {background-color: rgb(80, 223, 255);}
+
 ul.navbar-horizontal{
     list-style-type: none;
     margin: 1px;
